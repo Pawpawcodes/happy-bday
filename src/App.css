@@ -1,0 +1,52 @@
+.app {
+  text-align: center;
+  background: linear-gradient(135deg, #ffb6c1, #ffe4b5);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ff1493;
+  margin-bottom: 1.5rem;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+.cake {
+  width: 250px;
+  transition: all 0.5s ease;
+}
+
+.btn {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff1493;
+}
+
+.secret {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  color: #d63384;
+  font-family: 'Courier New', monospace;
+}
+.fade {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade.show {
+  opacity: 1;
+}
